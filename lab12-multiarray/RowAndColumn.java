@@ -159,7 +159,10 @@ public class RowAndColumn{
         System.out.println("\n\n");
         int[][] arrayfinal= addMatrix(array1,true,array2,false);
         printMatrix(arrayfinal,true);
-        addMatrix(array1,true,array3,true);
+        System.out.print("\n\n");
+        arrayfinal=addMatrix(array1,true,array3,true);
+        if (!(arrayfinal==null)){
+        printMatrix(arrayfinal,true);}
         
     }
 }//end class
